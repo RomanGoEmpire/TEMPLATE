@@ -1,4 +1,4 @@
-# 📦 MSGGROUP-Banking-Knowledgelake Repository Template 📦
+# 📦 TEMPLATE 📦
 
 
 ### Setup

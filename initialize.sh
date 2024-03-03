@@ -58,8 +58,12 @@ install_requirements() {
 }
 
 create_env_file() {
-    to_green "Creating .env file"
-    touch .env
+    if [ ! -f ".env" ]; then
+        to_green "Creating .env file"
+        touch .env
+    else
+        to_green ".env file already exists"
+    fi
 }
 
 main() {
